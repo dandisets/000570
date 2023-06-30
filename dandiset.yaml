@@ -6,11 +6,36 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: voltage clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 4416924279
+  numberOfFiles: 148
+  numberOfSubjects: 56
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
+  - VoltageClampSeries
+  - CurrentClampStimulusSeries
+  - VoltageClampStimulusSeries
+  - CurrentClampSeries
 citation: Mei, Nicholas (2023) 20230630_AIBS_Patchseq_human (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000570/draft
+  set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: nicholas.mei@alleninstitute.org
@@ -20,7 +45,9 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-06-29T20:25:43.159623+00:00'
+datePublished: '2023-06-29T23:58:59.034129+00:00'
 description: U01 Lein Patch-seq data upload (Q2 2023)
+doi: 10.80507/dandi.123456/0.123456.1234
 id: DANDI:000570/draft
 identifier: DANDI:000570
 license:
@@ -28,6 +55,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000570/versions/draft/assets/
 name: 20230630_AIBS_Patchseq_human
+publishedBy:
+  endDate: '2023-06-29T23:58:59.034129+00:00'
+  id: urn:uuid:ab88ae90-8c23-42a6-aee3-f1d9c70a8fbd
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-06-29T23:58:59.034129+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:03acf536-8fa4-4c24-ba62-7fa1a0ee4233
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
