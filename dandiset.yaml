@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000570
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -34,41 +35,95 @@ assetsSummary:
   - CurrentClampStimulusSeries
   - VoltageClampStimulusSeries
   - CurrentClampSeries
-citation: Mei, Nicholas (2023) 20230630_AIBS_Patchseq_human (Version draft) [Data
-  set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Mei, Nicholas; Lee, Brian; Kalmbach, Brian; Chartrand, Tom; Dalley, Rachel;
+  Lein, Ed (2023) 20230630_AIBS_Patchseq_human (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000570/draft
 contributor:
 - affiliation: []
   email: nicholas.mei@alleninstitute.org
+  identifier: 0000-0001-8893-1763
   includeInCitation: true
   name: Mei, Nicholas
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation: []
+  email: brianle@alleninstitute.org
+  identifier: 0000-0002-3210-5638
+  includeInCitation: true
+  name: Lee, Brian
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation: []
+  email: briank@alleninstitute.org
+  identifier: 0000-0003-3136-8097
+  includeInCitation: true
+  name: Kalmbach, Brian
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation: []
+  email: 'tom.chartrand@alleninstitute.org '
+  includeInCitation: true
+  name: Chartrand, Tom
+  roleName:
+  - dcite:FormalAnalysis
+  schemaKey: Person
+- affiliation: []
+  email: racheld@alleninstitute.org
+  includeInCitation: true
+  name: Dalley, Rachel
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- affiliation: []
+  email: edl@alleninstitute.org
+  identifier: 0000-0001-9012-6552
+  includeInCitation: true
+  name: Lein, Ed
+  roleName:
+  - dcite:ProjectLeader
+  schemaKey: Person
+- awardNumber: U01MH114812
+  contactPoint: []
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov/
+- awardNumber: UM1MH130981
+  contactPoint: []
+  identifier: https://ror.org/00dcv1019
+  includeInCitation: false
+  name: Allen Institute for Brain Science
+  roleName: []
+  schemaKey: Organization
+  url: https://alleninstitute.org/
 dateCreated: '2023-06-29T20:25:43.159623+00:00'
-datePublished: '2023-06-29T23:58:59.034129+00:00'
 description: U01 Lein Patch-seq data upload (Q2 2023)
-doi: 10.80507/dandi.123456/0.123456.1234
+ethicsApproval: []
 id: DANDI:000570/draft
 identifier: DANDI:000570
+keywords:
+- Patch-seq
+- human
+- multimodal
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000570/versions/draft/assets/
 name: 20230630_AIBS_Patchseq_human
-publishedBy:
-  endDate: '2023-06-29T23:58:59.034129+00:00'
-  id: urn:uuid:ab88ae90-8c23-42a6-aee3-f1d9c70a8fbd
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-06-29T23:58:59.034129+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:03acf536-8fa4-4c24-ba62-7fa1a0ee4233
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
+protocol:
+- https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget:
+- Multimodal classifcation of cell types in the human neocortex.
 url: https://dandiarchive.org/dandiset/000570/draft
 version: draft
+wasGeneratedBy: []
