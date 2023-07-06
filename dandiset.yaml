@@ -103,6 +103,7 @@ contributor:
   schemaKey: Organization
   url: https://alleninstitute.org/
 dateCreated: '2023-06-29T20:25:43.159623+00:00'
+datePublished: '2023-07-06T16:30:09.294479+00:00'
 description: U01 Lein Patch-seq data upload (Q2 2023)
 ethicsApproval: []
 id: DANDI:000570/draft
@@ -118,6 +119,18 @@ manifestLocation:
 name: 20230630_AIBS_Patchseq_human
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
+publishedBy:
+  endDate: '2023-07-06T16:30:09.294479+00:00'
+  id: urn:uuid:6345d8fa-81ef-4d90-9bd9-5fe1122cdb11
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-07-06T16:30:09.294479+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:5e79a6ad-867e-485e-bd31-62cbc574f617
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
